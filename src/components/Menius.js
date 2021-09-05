@@ -130,11 +130,21 @@ export default function PersistentDrawerLeft() {
           </IconButton>
         </div>
         <Divider />
-          <Link className='link' to='/'>Milliy taomlar</Link>
-          <Link className='link' to='/yevropa-taomlari'>Yevropa taomlari</Link>
-          <Link className='link' to='/fasfod'>Fasfoodlar</Link>
-          <Link className='link' to='/ichimliklar'>Ichimliklar</Link>
-          <Link className='link' to='/disert'>Disertlar</Link>
+        <Link className='link' to='/'>
+          <img src="/images/menuicons/kiss.png"  alt="" />
+          Milliy taomlar</Link>
+          <Link className='link' to='/yevropa-taomlari'>
+          <img src="/images/menuicons/dish.png" alt="" />
+          Yevropa taomlari</Link>
+          <Link className='link' to='/fasfod'>
+          <img src="/images/menuicons/fast-food.png" alt="" />
+          Fasfoodlar</Link>
+          <Link className='link' to='/ichimliklar'>
+          <img src="/images/menuicons/cocktail.png" alt="" />
+          Ichimliklar</Link>
+          <Link className='link' to='/disert'>
+          <img src="/images/menuicons/sweets.png" alt="" />
+          Disertlar</Link>
       </Drawer>
       <main
         className={clsx(classes.content, {
